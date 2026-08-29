@@ -6,11 +6,11 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ## Desktop Overviews
 
-![Zebar Pure Desktop Preview 1](./resources/preview-image-1.png)
+![Zebar Pure Desktop Preview 1](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-1.png)
 
-![Zebar Pure Desktop Preview 2](./resources/preview-image-2.png)
+![Zebar Pure Desktop Preview 2](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-2.png)
 
-![Zebar Pure Desktop Preview 3](./resources/preview-image-3.png)
+![Zebar Pure Desktop Preview 3](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-3.png)
 
 ---
 
@@ -18,7 +18,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ### Global Theme & Layout Settings
 
-![Global Settings](./resources/preview-image-6.png)
+![Global Settings](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-6.png)
 
 - **Colors & Transparency**: Choose preset accent colors and background colors, or use custom HEX inputs. Adjust background opacity to achieve the desired bar transparency.
 - **3-Section Layout Reordering**: Seamlessly move modules across Left, Center, and Right sections using `◀` and `▶` buttons.
@@ -30,7 +30,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ### Date & Time
 
-![Date & Time Settings](./resources/preview-image-7.png)
+![Date & Time Settings](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-7.png)
 
 - **Quick Switch**: Left-click the date to toggle between Short and Long display modes.
 - **Custom Formats**: Right-click to configure Luxon date and time tokens, select language/locale presets (`en-US`, `de`, `fr`, `es`), and insert token chips directly at the cursor position (entering free text is possible).
@@ -39,7 +39,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ### Media Controller
 
-![Media Controls](./resources/preview-image-8.png)
+![Media Controls](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-8.png)
 
 - **Interactive Playback**: Right-click to access full playback controls (Play/Pause, Skip, Volume), which remain fully functional even if hidden from the top bar.
 - **Modular Visibility & Reordering**: Independently show, hide, or rearrange playback buttons and metadata fields (Title, Artist, Album) using `◀` and `▶`.
@@ -49,7 +49,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ### Weather & Location
 
-![Weather Settings](./resources/preview-image-4.png)
+![Weather Settings](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-4.png)
 
 - **Web Link**: Left-click to open your configured weather website. E.g. for your own city or work location.
 - **City Search & Coordinates**: Right-click to verify city names via Open-Meteo geocoding, enter custom latitude/longitude coordinates, or switch temperature units (°C, °F, Auto).
@@ -58,7 +58,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ### Live System Metrics
 
-![Live Hover Popovers](./resources/preview-image-5.png)
+![Live Hover Popovers](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-5.png)
 
 - **Real-Time Data**: Popovers mirror live values 1:1 with the status bar, including download/upload speeds, CPU usage, RAM usage, and battery charge with power plug status.
 
@@ -86,7 +86,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 2. **Install Zebar Pure**:
    - Right-click the Zebar icon in your Windows taskbar tray.
    - Select **Marketplace**, search for **Zebar Pure**, and click **Install**.
-   - *(Alternative manual install: Clone this repo into `%APPDATA%\zebar\downloads\lycoslane.zebar-pure@1.1.0`)*.
+   - *(Alternative manual install: Clone this repo into `%APPDATA%\zebar\downloads\lycoslane.zebar-pure@1.1.1`)*.
 3. **Activate & Customize**:
    - Right-click the Zebar tray icon and select **Reload Widgets**.
    - Select <kbd>Widget Packs</kbd> → <kbd>lycoslane.zebar-pure</kbd> → <kbd>minimal</kbd> → <kbd>Run 'default'</kbd>
