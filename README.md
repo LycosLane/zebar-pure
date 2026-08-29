@@ -22,6 +22,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 - **Colors & Transparency**: Choose preset accent colors and background colors, or use custom HEX inputs. Adjust background opacity to achieve the desired bar transparency.
 - **3-Section Layout Reordering**: Seamlessly move modules across Left, Center, and Right sections using `◀` and `▶` buttons.
+- **GlazeWM Workspaces**: Displays active workspaces, automatically mirroring workspace names, numbers, or custom icons configured in your GlazeWM `config.yaml`.
 - **Resource Optimization**: Toggle individual modules on or off. Disabled modules completely skip background polling and network requests.
 - **Hover Popups Toggle**: Silence hover information popups with the `Hover Information Popups` checkbox for a distraction-free bar.
 
@@ -67,13 +68,13 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 | Applet | Left Click | Right Click | Hover Action |
 | :--- | :--- | :--- | :--- |
-| **Workspaces** | Switch workspace | Open Global Settings | Workspaces Info |
+| **Workspaces** | Switch workspace *(mirrored from GlazeWM)* | Open Global Settings | Workspaces Info |
 | **Date & Time** | Toggle Short / Long Format | Open Date & Time Settings | Date & Time Info |
-| **Media Title** | Control playback via buttons | Open Media Settings | Media Session Info |
+| **Media Title** | Focus playing application | Open Media Settings | Media Session Info |
 | **Network** | Open Windows Network Settings | Toggle Fixed / Dynamic Width | Live In / Out Traffic |
-| **CPU / Memory** | Open Task Manager | Swap CPU / RAM display order | CPU & RAM Usage |
+| **CPU / Memory** | Open Task Manager | Swap CPU / RAM display order | Live CPU & RAM Usage |
 | **Battery** | Open Windows Power Settings | Toggle percentage text | Battery Level & State |
-| **Weather** | Open weather website (customizable) | Open Weather Settings | Weather Status & Location |
+| **Weather** | Open weather website *(customizable)* | Open Weather Settings | Weather Status & Location |
 | **Tiling Mode** | Toggle Horizontal / Vertical layout | — | Layout Mode Info |
 
 ---
