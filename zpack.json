@@ -1,11 +1,10 @@
 {
   "$schema": "https://github.com/glzr-io/zebar/raw/v3.3.1/resources/zpack-schema.json",
-  "id": "lycoslane.zebar-pure",
-  "name": "Zebar Pure",
+  "name": "zebar-pure",
   "version": "1.1.0",
-  "description": "The ultimate minimalist Windows RICE status bar for Zebar & GlazeWM. Features custom theme accent & complementary dark background colors, transparency/opacity control, dynamic 3-section layout reordering, resource-saving toggles, responsive zero-collision media text scaling, and unified popovers.",
+  "description": "Zebar Pure — The ultimate minimalist Windows RICE status bar for Zebar & GlazeWM. Features custom theme accent & complementary dark background colors, transparency/opacity control, dynamic 3-section layout reordering, resource-saving toggles, responsive zero-collision media text scaling, and unified popovers.",
   "authors": [
-    "LycosLane"
+    "lycoslane"
   ],
   "tags": [
     "rice",
