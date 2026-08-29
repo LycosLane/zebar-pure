@@ -1,26 +1,33 @@
 {
-  "$schema": "https://github.com/glzr-io/zebar/raw/v3.2.0/resources/zpack-schema.json",
-  "name": "frigid-zebar",
-  "version": "1.0.0",
-  "description": "Default React boilerplate with some QoL updates and tweaks",
+  "$schema": "https://github.com/glzr-io/zebar/raw/v3.3.1/resources/zpack-schema.json",
+  "id": "lycoslane.zebar-pure",
+  "name": "Zebar Pure",
+  "version": "1.1.0",
+  "description": "The ultimate minimalist Windows RICE status bar for Zebar & GlazeWM. Features custom theme accent & complementary dark background colors, transparency/opacity control, dynamic 3-section layout reordering, resource-saving toggles, responsive zero-collision media text scaling, and unified popovers.",
+  "authors": [
+    "LycosLane"
+  ],
   "tags": [
-    "clean",
-    "music",
+    "rice",
+    "windows-rice",
     "minimal",
-    "offline",
-    "integration",
-    "windows"
+    "pure",
+    "glazewm",
+    "theme",
+    "customizable"
   ],
   "previewImages": [
-    "resources\\preview-image-2.png",
-    "resources\\preview-image-1.png"
+    "./resources/preview-image-1.png",
+    "./resources/preview-image-2.png",
+    "./resources/preview-image-3.png",
+    "./resources/preview-image-4.png"
   ],
-  "repositoryUrl": "https://github.com/srcthird/frigid-zebar",
+  "repositoryUrl": "https://github.com/LycosLane/zebar-pure",
   "widgets": [
     {
       "name": "minimal",
       "htmlPath": "minimal/dist/index.html",
-      "zOrder": "normal",
+      "zOrder": "top_most",
       "shownInTaskbar": false,
       "focused": false,
       "resizable": false,
@@ -36,73 +43,7 @@
         "shellCommands": [
           {
             "program": "powershell",
-            "argsRegex": "-Command Start-Process ms-settings:network-status"
-          },
-          {
-            "program": "powershell",
-            "argsRegex": "-Command Start-Process bingweather://"
-          },
-          {
-            "program": "powershell",
-            "argsRegex": "-Command Start-Process taskmgr"
-          },
-          {
-            "program": "-Command Start-Process",
-            "argsRegex": "ms-settings:powersleep"
-          }
-        ]
-      },
-      "presets": [
-        {
-          "name": "default",
-          "anchor": "top_left",
-          "offsetX": "0px",
-          "offsetY": "0px",
-          "width": "100%",
-          "height": "40px",
-          "monitorSelection": {
-            "type": "all"
-          },
-          "dockToEdge": {
-            "enabled": false,
-            "edge": null,
-            "windowMargin": "0px"
-          }
-        }
-      ]
-    },
-    {
-      "name": "plus",
-      "htmlPath": "plus/dist/index.html",
-      "zOrder": "normal",
-      "shownInTaskbar": false,
-      "focused": false,
-      "resizable": false,
-      "transparent": true,
-      "includeFiles": [
-        "plus/dist/**"
-      ],
-      "caching": {
-        "defaultDuration": 604800,
-        "rules": []
-      },
-      "privileges": {
-        "shellCommands": [
-          {
-            "program": "powershell",
-            "argsRegex": "-Command Start-Process ms-settings:network-status"
-          },
-          {
-            "program": "powershell",
-            "argsRegex": "-Command Start-Process bingweather://"
-          },
-          {
-            "program": "powershell",
-            "argsRegex": "-Command Start-Process taskmgr"
-          },
-          {
-            "program": "-Command Start-Process",
-            "argsRegex": "ms-settings:powersleep"
+            "argsRegex": ".*"
           }
         ]
       },

@@ -1,8 +1,8 @@
 {
-  "name": "frigid-zebar",
-  "version": "0.0.0",
+  "name": "lycoslane.zebar-pure",
+  "version": "1.1.0",
   "type": "module",
-  "description": "",
+  "description": "Zebar Pure - Ultra-clean minimalist Zebar theme with adaptive accent colors, customizable Luxon date formatting, and module popovers.",
   "scripts": {
     "build": "vite build",
     "dev": "vite build --watch"

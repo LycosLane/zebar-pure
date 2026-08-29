@@ -1,24 +1,22 @@
-import { CpuOutput } from "zebar"
+import { CpuOutput } from "zebar";
 
 type Props = {
-  cpu: CpuOutput | null
-}
+  cpu: CpuOutput | null;
+};
 
 const CPU = ({ cpu }: Props) => {
   if (cpu) {
+    const usage = Math.round(cpu.usage);
     return (
       <div className="cpu">
         <i className="nf nf-oct-cpu"></i>
-        <span
-          className={cpu.usage > 85 ? 'high-usage' : ''}
-        >
-          {String(Math.round(cpu.usage)).padStart(2, '0')}%
-        </span>
+        <span className={`cpu-val ${cpu.usage > 85 ? 'high-usage' : ''}`}>{usage}</span>
+        <span className="unit-symbol">%</span>
       </div>
-    )
+    );
   } else {
-    return <></>
+    return <></>;
   }
-}
+};
 
 export default CPU;

@@ -1,3 +1,21 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+minimal/node_modules/
+
+# Local backups
+backups/
+
+# OS metadata & temporary files
 .DS_Store
+Thumbs.db
+*.log
+
+# IDE & Editor configs
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Environment files
+.env
+.env.local
