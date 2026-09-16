@@ -75,7 +75,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 | **CPU / Memory** | Open Task Manager | Swap CPU / RAM display order | Live CPU & RAM Usage |
 | **Battery** | Open Windows Power Settings | Toggle percentage text | Battery Level & State |
 | **Weather** | Open weather website *(customizable)* | Open Weather Settings | Weather Status & Location |
-| **Tiling Mode** | Toggle Horizontal / Vertical layout | — | Layout Mode Info |
+| **Tiling Mode** | Toggle Horizontal / Vertical layout | - | Layout Mode Info |
 
 ---
 
@@ -86,7 +86,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 2. **Install Zebar Pure**:
    - Right-click the Zebar icon in your Windows taskbar tray.
    - Select **Marketplace**, search for **Zebar Pure**, and click **Install**.
-   - *(Alternative manual install: Clone this repo into `%APPDATA%\zebar\downloads\lycoslane.zebar-pure@1.1.1`)*.
+   - *(Alternative manual install: Clone this repo into `%APPDATA%\zebar\downloads\lycoslane.zebar-pure@1.1.2`)*.
 3. **Activate & Customize**:
    - Right-click the Zebar tray icon and select **Reload Widgets**.
    - Select <kbd>Widget Packs</kbd> → <kbd>lycoslane.zebar-pure</kbd> → <kbd>minimal</kbd> → <kbd>Run 'default'</kbd>
