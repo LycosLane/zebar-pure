@@ -20,11 +20,11 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ![Global Settings](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-6.png)
 
-- **Colors & Transparency**: Choose preset accent colors and background colors, or use custom HEX inputs. Adjust background opacity to achieve the desired bar transparency.
-- **3-Section Layout Reordering**: Seamlessly move modules across Left, Center, and Right sections using `◀` and `▶` buttons.
-- **GlazeWM Workspaces**: Displays active workspaces, automatically mirroring workspace names, numbers, or custom icons configured in your GlazeWM `config.yaml`.
-- **Resource Optimization**: Toggle individual modules on or off. Disabled modules completely skip background polling and network requests.
-- **Hover Popups Toggle**: Silence hover information popups with the `Hover Information Popups` checkbox for a distraction-free bar.
+- **Colors & Transparency:** Select preset colors or enter custom HEX codes. Adjust background opacity for desired transparency.
+- **3-Section Layout:** Move modules across Left, Center, and Right sections using the `◀` and `▶` buttons.
+- **GlazeWM Workspaces:** Mirror active workspace names, numbers, or icons configured in your GlazeWM `config.yaml`.
+- **Resource Optimization:** Toggle individual modules on or off. Disabled modules skip background polling and network calls.
+- **Hover Popups Toggle:** Turn off hover popups using the settings checkbox.
 
 ---
 
@@ -32,8 +32,8 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ![Date & Time Settings](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-7.png)
 
-- **Quick Switch**: Left-click the date to toggle between Short and Long display modes.
-- **Custom Formats**: Right-click to configure Luxon date and time tokens, select language/locale presets (`en-US`, `de`, `fr`, `es`), and insert token chips directly at the cursor position (entering free text is possible).
+- **Quick Switch:** Left-click the date to toggle between Short and Long formats.
+- **Custom Formats:** Right-click to configure Luxon tokens, pick locale presets (`en-US`, `de`, `fr`, `es`), or type custom text.
 
 ---
 
@@ -41,9 +41,9 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ![Media Controls](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-8.png)
 
-- **Interactive Playback**: Right-click to access full playback controls (Play/Pause, Skip, Volume), which remain fully functional even if hidden from the top bar.
-- **Modular Visibility & Reordering**: Independently show, hide, or rearrange playback buttons and metadata fields (Title, Artist, Album) using `◀` and `▶`.
-- **Dynamic Text Scaling**: Set a custom maximum text width or enable `Max Free` mode to dynamically fill available bar space without collisions.
+- **Interactive Playback:** Right-click for full playback controls (Play, Pause, Skip, Volume).
+- **Module Visibility:** Show, hide, or rearrange playback buttons and metadata using `◀` and `▶`.
+- **Dynamic Text Scaling:** Set a maximum text width or enable `Max Free` to fill available bar space.
 
 ---
 
@@ -51,8 +51,8 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ![Weather Settings](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-4.png)
 
-- **Web Link**: Left-click to open your configured weather website. E.g. for your own city or work location.
-- **City Search & Coordinates**: Right-click to verify city names via Open-Meteo geocoding, enter custom latitude/longitude coordinates, or switch temperature units (°C, °F, Auto).
+- **Web Link:** Left-click to open your weather website.
+- **City Search & Coordinates:** Right-click to search cities with Open-Meteo, enter coordinates, or select temperature units.
 
 ---
 
@@ -60,7 +60,7 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ![Live Hover Popovers](https://raw.githubusercontent.com/LycosLane/zebar-pure/main/resources/preview-image-5.png)
 
-- **Real-Time Data**: Popovers mirror live values 1:1 with the status bar, including download/upload speeds, CPU usage, RAM usage, and battery charge with power plug status.
+- **Real-Time Data:** Popovers mirror live values for download/upload speeds, CPU usage, RAM usage, and battery charge.
 
 ---
 
@@ -81,22 +81,26 @@ A minimalist, fully customizable status bar for Zebar and GlazeWM on Windows.
 
 ## How to Install & Use
 
-1. **Install Zebar**: Download and install Zebar from [github.com/glzr-io/zebar](https://github.com/glzr-io/zebar/releases) (or run `winget install glzr-io.zebar` in PowerShell). 
-   Zebar can also be installed automatically with [GlazeWM](https://github.com/glzr-io/glazewm) for tiling window management.
-2. **Install Zebar Pure**:
+1. **Install Zebar:** Download and install Zebar from [github.com/glzr-io/zebar](https://github.com/glzr-io/zebar/releases) or run `winget install glzr-io.zebar`. You can also install it with GlazeWM.
+2. **Install Zebar Pure:**
    - Right-click the Zebar icon in your Windows taskbar tray.
    - Select **Marketplace**, search for **Zebar Pure**, and click **Install**.
-   - *(Alternative manual install: Clone this repo into `%APPDATA%\zebar\downloads\lycoslane.zebar-pure@1.1.2`)*.
-3. **Activate & Customize**:
+   - *(Manual option: clone this repo into `%APPDATA%\zebar\downloads\lycoslane.zebar-pure@1.1.2`)*.
+3. **Activate & Customize:**
    - Right-click the Zebar tray icon and select **Reload Widgets**.
-   - Select <kbd>Widget Packs</kbd> → <kbd>lycoslane.zebar-pure</kbd> → <kbd>minimal</kbd> → <kbd>Run 'default'</kbd>
-   - If other widget packs are running simultaneously, right-click the Zebar tray icon, locate any active packs marked with `(1)`, and click them to disable.
-   - Right-click the **Workspaces** icon on the left side of the bar to open Global Settings and customize your colors, opacity, and layout.
+   - Select <kbd>Widget Packs</kbd> -> <kbd>lycoslane.zebar-pure</kbd> -> <kbd>minimal</kbd> -> <kbd>Run 'default'</kbd>.
+   - Disable any other active packs marked with `(1)`.
+   - Right-click the **Workspaces** icon on the left to open Global Settings.
 
 ---
 
-## Credits & License
+## Credits
 
-- Created by **LycosLane**.
-- Originally inspired by concepts from `srcthird.frigid-zebar` by Stephen Chryn, re-engineered into Zebar Pure.
-- Released under the [Apache-2.0 License](./minimal/LICENSE).
+- Created by LycosLane.
+- Inspired by concepts from `srcthird.frigid-zebar` by Stephen Chryn.
+
+---
+
+## License
+
+Apache-2.0 License © 2026 LycosLane
